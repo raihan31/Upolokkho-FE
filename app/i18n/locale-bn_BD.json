@@ -1,0 +1,15 @@
+{
+  "views":{
+      "main":{
+        "Splendid!": "Splendid!"
+      },
+      "Authors":{
+        "title":"Authors bangla"
+      }
+    },
+  "directives":{
+    "language-select": {
+      "Language": "Language"
+    }
+  }
+}

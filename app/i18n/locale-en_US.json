@@ -1,0 +1,15 @@
+{
+  "views":{
+    "main":{
+      "Splendid!": "Splendid!"
+    },
+    "Authors":{
+      "title":"Authors"
+    }
+  },
+  "directives":{
+    "language-select": {
+      "Language": "Language"
+    }
+  }
+}

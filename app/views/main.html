@@ -1,0 +1,72 @@
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>{{"views.Authors.title" | translate}}<i class="fa fa-plus pull-right"></i></h4>
+      </div>
+      <div class="panel-body">
+        <div class="table-responsive">
+          <table class="table">
+            <thead>
+            <tr>
+              <th>#</th>
+              <th>Name</th>
+              <th>Age</th>
+              <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="Author in Authors">
+              <td>{{Author.Id}}</td>
+              <td>{{Author.Name}}</td>
+              <td>{{Author.Age}}</td>
+              <td>
+                <span><i class="fa fa-times"></i></span>
+                <span><i class="fa fa-pencil"></i></span>
+              </td>
+
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4>Books<i class="fa fa-plus pull-right"></i></h4>
+
+      </div>
+      <div class="panel-body">
+        <div class="table-responsive">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Category</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr ng-repeat="Book in Books">
+                  <td>{{Book.Id}}</td>
+                  <td>{{Book.Name}}</td>
+                  <td>{{Book.Price}}</td>
+                  <td>{{Book.Category}}</td>
+                  <td>
+                    <span><i class="fa fa-times"></i></span>
+                    <span><i class="fa fa-pencil"></i></span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
